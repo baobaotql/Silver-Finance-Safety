@@ -1,0 +1,26 @@
+{
+  "name": "灵溪识险",
+  "appid": "__UNI__SILVER_FINANCE",
+  "description": "面向老年群体的适老化AI金融反诈风险识别微信小程序",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "minified": true
+    },
+    "usingComponents": true,
+    "permission": {
+      "scope.camera": {
+        "desc": "用于拍摄图片进行金融风险识别"
+      },
+      "scope.album": {
+        "desc": "用于从相册选择图片进行金融风险识别"
+      }
+    }
+  },
+  "vueVersion": "3"
+}

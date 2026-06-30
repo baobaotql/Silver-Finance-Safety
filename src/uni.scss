@@ -1,0 +1,58 @@
+/* 适老化设计规范 - 温暖优雅风格 */
+
+/* 色彩 */
+$bg-page: #f0f4f8;
+$bg-card: #ffffff;
+$text-primary: #1a1a2e;
+$text-secondary: #4a5568;
+$text-muted: #718096;
+
+$color-low: #38a169;
+$color-low-bg: #f0fff4;
+$color-low-border: #c6f6d5;
+$color-caution: #d69e2e;
+$color-caution-bg: #fffff0;
+$color-caution-border: #fefcbf;
+$color-high: #e53e3e;
+$color-high-bg: #fff5f5;
+$color-high-border: #fed7d7;
+
+$color-primary: #2b6cb0;
+$color-primary-light: #3182ce;
+$color-primary-dark: #1a4f7e;
+$color-accent: #ed8936;
+$color-accent-light: #f6ad55;
+$color-border: #e2e8f0;
+
+$gradient-primary: linear-gradient(135deg, #2b6cb0 0%, #3182ce 50%, #4299e1 100%);
+$gradient-accent: linear-gradient(135deg, #ed8936 0%, #f6ad55 100%);
+$gradient-safe: linear-gradient(135deg, #38a169 0%, #48bb78 100%);
+$gradient-warn: linear-gradient(135deg, #d69e2e 0%, #ecc94b 100%);
+$gradient-danger: linear-gradient(135deg, #e53e3e 0%, #fc8181 100%);
+
+$shadow-sm: 0 2rpx 8rpx rgba(0, 0, 0, 0.04);
+$shadow-md: 0 4rpx 16rpx rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 8rpx 32rpx rgba(0, 0, 0, 0.08);
+$shadow-xl: 0 16rpx 48rpx rgba(0, 0, 0, 0.1);
+$shadow-primary: 0 8rpx 24rpx rgba(43, 108, 176, 0.25);
+
+/* 字号 - 正文≥18px，标题/按钮≥24px */
+$font-base: 36rpx;   /* ≈18px */
+$font-lg: 40rpx;
+$font-title: 48rpx;  /* ≈24px */
+$font-xl: 56rpx;
+$font-hero: 64rpx;
+
+/* 间距 */
+$spacing-xs: 12rpx;
+$spacing-sm: 16rpx;
+$spacing-md: 24rpx;
+$spacing-lg: 32rpx;
+$spacing-xl: 48rpx;
+$spacing-2xl: 64rpx;
+
+/* 按钮 */
+$btn-height: 112rpx;
+$btn-height-lg: 128rpx;
+$btn-radius: 20rpx;
+$btn-radius-round: 60rpx;
